@@ -1,0 +1,30 @@
+.datePicker .daySelected {
+    background-color:#4CAF50;
+    color: white;
+    border-radius: 100%;
+}
+
+.datePicker .daySelected.today {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.datePicker .today {
+    color: #4CAF50;
+}
+
+.calendar {
+    width: 250px;
+    box-shadow: 0px 4px 4px 0px #0000001A;
+    border-radius: 8px;
+    color: var(--text-color);
+    padding: 10px;
+    background-color: var(--background-color);
+    --rdp-accent-color: var(--text-color);
+    --rdp-day-width: 35px;
+    --rdp-day-height: 30px;
+    --rdp-day_button-width: 30px;
+    --rdp-day_button-height: 30px;
+    --rdp-weekday-opacity: 1;
+}
+
